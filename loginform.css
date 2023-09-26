@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    padding: 0 0 100px;
+    background-image: url('img/bg.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+.wrapper .logo img{
+    max-width: 40%;
+}
+.wrapper input{
+    background-color: lightgray;
+    border-color: lightblue;
+    color: black;
+}
+.wrapper input:focus{
+    box-shadow: none;
+}
+.wrapper .submit_btn{
+    padding: 15px;
+    font-weight: 500;
+
+}
+.wrapper .login_with{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
